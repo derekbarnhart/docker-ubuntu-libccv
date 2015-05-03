@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt-get install -y git
 RUN apt-get install -y gcc
 RUN apt-get install -y libpng-dev
-RUN apt-get install -y libpeg-dev
+RUN apt-get install -y libjpeg-dev
 RUN apt-get install -y libfftw3-dev
 RUN apt-get install -y make
 RUN apt-get install -y libavcodec-dev
